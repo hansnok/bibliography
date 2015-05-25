@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,14 +14,25 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/**
-* Bibliography version info
-*
-* @package    local
-* @subpackage bibliography
-* @copyright  2011-2015 Jorge Villalon, Ignacio Opazo
-* @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
-*/
 
-$plugin->version = 2015052100;
-$plugin->component = 'local_bibliography';
+/**
+ *
+ *
+ * @package    local
+ * @subpackage bibliography
+ * @copyright  2015 Jorge Villalon
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+defined('MOODLE_INTERNAL') || die();
+
+$tasks = array(
+    array(
+        'classname' => 'local_bibliography\task\download_primo_urls',
+        'blocking' => 1,
+        'minute' => '0',
+        'hour' => '0',
+        'day' => '*',
+        'dayofweek' => '0',
+        'month' => '*'
+    )
+);

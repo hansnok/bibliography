@@ -58,3 +58,4 @@ $string['teacher_help'] = 'Help for teachers';
 $string['configteacher_help'] = 'Message at the bottom of the block to help teachers on how to modify their bibliography';
 $string['student_help'] = 'Help for students';
 $string['configstudent_help'] = 'Message at the bottom of the block to help students on how to suggest bibliography';
+$string['donwloadprimourls'] = 'Download URLs from Primo';

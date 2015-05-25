@@ -51,3 +51,4 @@ $string['configprimourl_post'] = 'URL del RSS postfijo feed del servidor Primo d
 $string['email'] = 'Email contacto';
 $string['configemail'] = 'Email del contacto encargado del sistema de biblioteca';
 $string['errorparsing'] = 'Error de conexión con el servidor de biblioteca';
+$string['donwloadprimourls'] = 'Descargar URLs de Primo';
